@@ -29,19 +29,24 @@
   "deployment": {
     "type": "web-app",
     "provider": "vercel",
-    "url": null
+    "url": "https://ax-test-snippets.vercel.app"
   },
   "ci": {
     "provider": "github-actions",
     "workflow_file": ".github/workflows/ci.yml"
   },
-  "phases_completed": [],
+  "phases_completed": [
+    {"phase": 1, "title": "Core CRUD + UI Foundation", "started_at": "2026-03-10T08:20:00Z", "completed_at": "2026-03-10T08:45:00Z"},
+    {"phase": 2, "title": "Multi-file Snippets + Collections", "started_at": "2026-03-10T08:20:00Z", "completed_at": "2026-03-10T08:45:00Z"},
+    {"phase": 3, "title": "Social Features", "started_at": "2026-03-10T08:20:00Z", "completed_at": "2026-03-10T08:45:00Z"},
+    {"phase": 4, "title": "Search + Discovery", "started_at": "2026-03-10T08:20:00Z", "completed_at": "2026-03-10T08:45:00Z"}
+  ],
   "milestone_history": [],
   "last_commands": {
     "init": "2026-03-10T08:15:00Z",
     "phase": null,
     "run": null,
-    "finish": null,
+    "finish": "2026-03-10T08:50:00Z",
     "status": null
   }
 }
