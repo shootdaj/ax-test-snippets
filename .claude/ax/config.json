@@ -29,7 +29,7 @@
   "deployment": {
     "type": "web-app",
     "provider": "vercel",
-    "url": null
+    "url": "https://ax-test-snippets.vercel.app"
   },
   "ci": {
     "provider": "github-actions",
@@ -46,7 +46,7 @@
     "init": "2026-03-10T08:15:00Z",
     "phase": null,
     "run": null,
-    "finish": null,
+    "finish": "2026-03-10T08:50:00Z",
     "status": null
   }
 }
