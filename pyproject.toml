@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+markers = [
+    "integration: Integration tests that test API endpoints",
+    "scenario: Scenario tests that test full user workflows",
+]
